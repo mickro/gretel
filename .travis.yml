@@ -10,6 +10,12 @@ gemfile:
   - gemfiles/Gemfile-rails.3.2.x
   - gemfiles/Gemfile-rails.4.0.x
   - gemfiles/Gemfile-rails.4.1.x
+matrix:
+  exclude:
+    - rvm: 1.9.3
+      gemfile: gemfiles/Gemfile-rails.4.0.x
+    - rvm: 1.9.3
+      gemfile: gemfiles/Gemfile-rails.4.1.x
 before_script:
   - "cd test/dummy; rake db:migrate; rake db:test:prepare; cd ../.."
 notifications:

@@ -1,5 +1,5 @@
 ## This is a fork of a fork... of Gretel
-This reposidory is a fork of [44uk version](https://github.com/44uk/gretel) which is itself a fork of the original [lassebunk](https://github.com/lassebunk/gretel).
+This reposidory is a fork of [44uk version](https://github.com/44uk/gretel) which is itself a fork of the original [lassebunk's repository](https://github.com/lassebunk/gretel).
 
 I started this repository merging _44uk_ changes to master.
 

@@ -1,3 +1,11 @@
+## This is a fork of a fork... of Gretel
+This reposidory is a fork of [44uk version](https://github.com/44uk/gretel) which is itself a fork of the original [lassebunk](https://github.com/lassebunk/gretel).
+
+I started this repository merging _44uk_ changes to master.
+
+
+# ...
+
 <a href="http://travis-ci.org/lassebunk/gretel"><img src="https://secure.travis-ci.org/lassebunk/gretel.png" alt="Build Status" /></a>
 
 <img src="http://i.imgur.com/CAKEaBM.png" alt="Handle breadcrumb trails... like a boss :)" />
@@ -13,7 +21,7 @@ Have fun! And please do write, if you (dis)like it – [lassebunk@gmail.com](mai
 In your *Gemfile*:
 
 ```ruby
-gem "gretel"
+gem "gretel, :git => 'https://github.com/mickro/gretel.git'"
 ```
 
 And run:
